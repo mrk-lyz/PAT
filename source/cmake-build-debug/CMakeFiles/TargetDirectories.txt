@@ -1,7 +1,9 @@
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1001.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1002.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1060.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1006.dir
-D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1008.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1025.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1007.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1008.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/rebuild_cache.dir

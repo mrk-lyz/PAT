@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = D:\Program\C++\PAT\source\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -136,6 +136,19 @@ A1002/fast:
 .PHONY : A1002/fast
 
 #=============================================================================
+# Target rules for targets named A1060
+
+# Build rule for target.
+A1060: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1060
+.PHONY : A1060
+
+# fast build rule for target.
+A1060/fast:
+	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/build
+.PHONY : A1060/fast
+
+#=============================================================================
 # Target rules for targets named A1006
 
 # Build rule for target.
@@ -149,19 +162,6 @@ A1006/fast:
 .PHONY : A1006/fast
 
 #=============================================================================
-# Target rules for targets named A1008
-
-# Build rule for target.
-A1008: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 A1008
-.PHONY : A1008
-
-# fast build rule for target.
-A1008/fast:
-	$(MAKE) -f CMakeFiles\A1008.dir\build.make CMakeFiles/A1008.dir/build
-.PHONY : A1008/fast
-
-#=============================================================================
 # Target rules for targets named A1025
 
 # Build rule for target.
@@ -173,6 +173,32 @@ A1025: cmake_check_build_system
 A1025/fast:
 	$(MAKE) -f CMakeFiles\A1025.dir\build.make CMakeFiles/A1025.dir/build
 .PHONY : A1025/fast
+
+#=============================================================================
+# Target rules for targets named A1007
+
+# Build rule for target.
+A1007: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1007
+.PHONY : A1007
+
+# fast build rule for target.
+A1007/fast:
+	$(MAKE) -f CMakeFiles\A1007.dir\build.make CMakeFiles/A1007.dir/build
+.PHONY : A1007/fast
+
+#=============================================================================
+# Target rules for targets named A1008
+
+# Build rule for target.
+A1008: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1008
+.PHONY : A1008
+
+# fast build rule for target.
+A1008/fast:
+	$(MAKE) -f CMakeFiles\A1008.dir\build.make CMakeFiles/A1008.dir/build
+.PHONY : A1008/fast
 
 A1001.obj: A1001.cpp.obj
 
@@ -255,6 +281,33 @@ A1006.cpp.s:
 	$(MAKE) -f CMakeFiles\A1006.dir\build.make CMakeFiles/A1006.dir/A1006.cpp.s
 .PHONY : A1006.cpp.s
 
+A1007.obj: A1007.cpp.obj
+
+.PHONY : A1007.obj
+
+# target to build an object file
+A1007.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1007.dir\build.make CMakeFiles/A1007.dir/A1007.cpp.obj
+.PHONY : A1007.cpp.obj
+
+A1007.i: A1007.cpp.i
+
+.PHONY : A1007.i
+
+# target to preprocess a source file
+A1007.cpp.i:
+	$(MAKE) -f CMakeFiles\A1007.dir\build.make CMakeFiles/A1007.dir/A1007.cpp.i
+.PHONY : A1007.cpp.i
+
+A1007.s: A1007.cpp.s
+
+.PHONY : A1007.s
+
+# target to generate assembly for a file
+A1007.cpp.s:
+	$(MAKE) -f CMakeFiles\A1007.dir\build.make CMakeFiles/A1007.dir/A1007.cpp.s
+.PHONY : A1007.cpp.s
+
 A1008.obj: A1008.cpp.obj
 
 .PHONY : A1008.obj
@@ -309,6 +362,33 @@ A1025.cpp.s:
 	$(MAKE) -f CMakeFiles\A1025.dir\build.make CMakeFiles/A1025.dir/A1025.cpp.s
 .PHONY : A1025.cpp.s
 
+A1060.obj: A1060.cpp.obj
+
+.PHONY : A1060.obj
+
+# target to build an object file
+A1060.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/A1060.cpp.obj
+.PHONY : A1060.cpp.obj
+
+A1060.i: A1060.cpp.i
+
+.PHONY : A1060.i
+
+# target to preprocess a source file
+A1060.cpp.i:
+	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/A1060.cpp.i
+.PHONY : A1060.cpp.i
+
+A1060.s: A1060.cpp.s
+
+.PHONY : A1060.s
+
+# target to generate assembly for a file
+A1060.cpp.s:
+	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/A1060.cpp.s
+.PHONY : A1060.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -317,11 +397,13 @@ help:
 	@echo ... depend
 	@echo ... A1001
 	@echo ... A1002
+	@echo ... A1060
 	@echo ... A1006
-	@echo ... rebuild_cache
-	@echo ... A1008
 	@echo ... edit_cache
 	@echo ... A1025
+	@echo ... A1007
+	@echo ... A1008
+	@echo ... rebuild_cache
 	@echo ... A1001.obj
 	@echo ... A1001.i
 	@echo ... A1001.s
@@ -331,12 +413,18 @@ help:
 	@echo ... A1006.obj
 	@echo ... A1006.i
 	@echo ... A1006.s
+	@echo ... A1007.obj
+	@echo ... A1007.i
+	@echo ... A1007.s
 	@echo ... A1008.obj
 	@echo ... A1008.i
 	@echo ... A1008.s
 	@echo ... A1025.obj
 	@echo ... A1025.i
 	@echo ... A1025.s
+	@echo ... A1060.obj
+	@echo ... A1060.i
+	@echo ... A1060.s
 .PHONY : help
 
 
