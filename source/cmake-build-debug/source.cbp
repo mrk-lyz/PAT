@@ -17,6 +17,94 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1008">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1008.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1008"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1008/fast">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1008.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1008/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="A1001">
 				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1001.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
@@ -105,8 +193,8 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="A1060">
-				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1060.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="A1004">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1004.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -121,14 +209,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1060"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1004"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="A1060/fast">
-				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1060.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="A1004/fast">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1004.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -143,7 +231,7 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1060/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1004/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -188,16 +276,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1006/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -291,8 +369,8 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="A1008">
-				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1008.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="A1032">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1032.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -307,14 +385,14 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1008"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1032"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="A1008/fast">
-				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1008.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="A1032/fast">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1032.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -329,7 +407,105 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1008/fast"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1032/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1052">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1052.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1052"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1052/fast">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1052.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1052/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1060">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1060.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1060"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1060/fast">
+				<Option output="D:/Program/C++/PAT/source/cmake-build-debug/A1060.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1060/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Program/C++/PAT/source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Program/C++/PAT/source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -352,6 +528,9 @@
 		<Unit filename="D:/Program/C++/PAT/source/A1002.cpp">
 			<Option target="A1002"/>
 		</Unit>
+		<Unit filename="D:/Program/C++/PAT/source/A1004.cpp">
+			<Option target="A1004"/>
+		</Unit>
 		<Unit filename="D:/Program/C++/PAT/source/A1006.cpp">
 			<Option target="A1006"/>
 		</Unit>
@@ -364,8 +543,17 @@
 		<Unit filename="D:/Program/C++/PAT/source/A1025.cpp">
 			<Option target="A1025"/>
 		</Unit>
+		<Unit filename="D:/Program/C++/PAT/source/A1032.cpp">
+			<Option target="A1032"/>
+		</Unit>
+		<Unit filename="D:/Program/C++/PAT/source/A1052.cpp">
+			<Option target="A1052"/>
+		</Unit>
 		<Unit filename="D:/Program/C++/PAT/source/A1060.cpp">
 			<Option target="A1060"/>
+		</Unit>
+		<Unit filename="D:/Program/C++/PAT/source/test.cpp">
+			<Option target="test"/>
 		</Unit>
 		<Unit filename="D:/Program/C++/PAT/source/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

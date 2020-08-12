@@ -11,7 +11,7 @@ Sample Output:
  */
 
 /*
- * 一维dp：较为笨重c
+ * 一维dp：
  * c[j]表示p[1]-p[j]中包含j的最大子段和
  * 递推方程：c[j] = max{c[j-1]+p[j], p[j]}
  * */

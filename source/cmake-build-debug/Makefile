@@ -110,6 +110,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named A1008
+
+# Build rule for target.
+A1008: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1008
+.PHONY : A1008
+
+# fast build rule for target.
+A1008/fast:
+	$(MAKE) -f CMakeFiles\A1008.dir\build.make CMakeFiles/A1008.dir/build
+.PHONY : A1008/fast
+
+#=============================================================================
 # Target rules for targets named A1001
 
 # Build rule for target.
@@ -136,17 +162,17 @@ A1002/fast:
 .PHONY : A1002/fast
 
 #=============================================================================
-# Target rules for targets named A1060
+# Target rules for targets named A1004
 
 # Build rule for target.
-A1060: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 A1060
-.PHONY : A1060
+A1004: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1004
+.PHONY : A1004
 
 # fast build rule for target.
-A1060/fast:
-	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/build
-.PHONY : A1060/fast
+A1004/fast:
+	$(MAKE) -f CMakeFiles\A1004.dir\build.make CMakeFiles/A1004.dir/build
+.PHONY : A1004/fast
 
 #=============================================================================
 # Target rules for targets named A1006
@@ -188,17 +214,43 @@ A1007/fast:
 .PHONY : A1007/fast
 
 #=============================================================================
-# Target rules for targets named A1008
+# Target rules for targets named A1032
 
 # Build rule for target.
-A1008: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 A1008
-.PHONY : A1008
+A1032: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1032
+.PHONY : A1032
 
 # fast build rule for target.
-A1008/fast:
-	$(MAKE) -f CMakeFiles\A1008.dir\build.make CMakeFiles/A1008.dir/build
-.PHONY : A1008/fast
+A1032/fast:
+	$(MAKE) -f CMakeFiles\A1032.dir\build.make CMakeFiles/A1032.dir/build
+.PHONY : A1032/fast
+
+#=============================================================================
+# Target rules for targets named A1052
+
+# Build rule for target.
+A1052: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1052
+.PHONY : A1052
+
+# fast build rule for target.
+A1052/fast:
+	$(MAKE) -f CMakeFiles\A1052.dir\build.make CMakeFiles/A1052.dir/build
+.PHONY : A1052/fast
+
+#=============================================================================
+# Target rules for targets named A1060
+
+# Build rule for target.
+A1060: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1060
+.PHONY : A1060
+
+# fast build rule for target.
+A1060/fast:
+	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/build
+.PHONY : A1060/fast
 
 A1001.obj: A1001.cpp.obj
 
@@ -253,6 +305,33 @@ A1002.s: A1002.cpp.s
 A1002.cpp.s:
 	$(MAKE) -f CMakeFiles\A1002.dir\build.make CMakeFiles/A1002.dir/A1002.cpp.s
 .PHONY : A1002.cpp.s
+
+A1004.obj: A1004.cpp.obj
+
+.PHONY : A1004.obj
+
+# target to build an object file
+A1004.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1004.dir\build.make CMakeFiles/A1004.dir/A1004.cpp.obj
+.PHONY : A1004.cpp.obj
+
+A1004.i: A1004.cpp.i
+
+.PHONY : A1004.i
+
+# target to preprocess a source file
+A1004.cpp.i:
+	$(MAKE) -f CMakeFiles\A1004.dir\build.make CMakeFiles/A1004.dir/A1004.cpp.i
+.PHONY : A1004.cpp.i
+
+A1004.s: A1004.cpp.s
+
+.PHONY : A1004.s
+
+# target to generate assembly for a file
+A1004.cpp.s:
+	$(MAKE) -f CMakeFiles\A1004.dir\build.make CMakeFiles/A1004.dir/A1004.cpp.s
+.PHONY : A1004.cpp.s
 
 A1006.obj: A1006.cpp.obj
 
@@ -362,6 +441,60 @@ A1025.cpp.s:
 	$(MAKE) -f CMakeFiles\A1025.dir\build.make CMakeFiles/A1025.dir/A1025.cpp.s
 .PHONY : A1025.cpp.s
 
+A1032.obj: A1032.cpp.obj
+
+.PHONY : A1032.obj
+
+# target to build an object file
+A1032.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1032.dir\build.make CMakeFiles/A1032.dir/A1032.cpp.obj
+.PHONY : A1032.cpp.obj
+
+A1032.i: A1032.cpp.i
+
+.PHONY : A1032.i
+
+# target to preprocess a source file
+A1032.cpp.i:
+	$(MAKE) -f CMakeFiles\A1032.dir\build.make CMakeFiles/A1032.dir/A1032.cpp.i
+.PHONY : A1032.cpp.i
+
+A1032.s: A1032.cpp.s
+
+.PHONY : A1032.s
+
+# target to generate assembly for a file
+A1032.cpp.s:
+	$(MAKE) -f CMakeFiles\A1032.dir\build.make CMakeFiles/A1032.dir/A1032.cpp.s
+.PHONY : A1032.cpp.s
+
+A1052.obj: A1052.cpp.obj
+
+.PHONY : A1052.obj
+
+# target to build an object file
+A1052.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1052.dir\build.make CMakeFiles/A1052.dir/A1052.cpp.obj
+.PHONY : A1052.cpp.obj
+
+A1052.i: A1052.cpp.i
+
+.PHONY : A1052.i
+
+# target to preprocess a source file
+A1052.cpp.i:
+	$(MAKE) -f CMakeFiles\A1052.dir\build.make CMakeFiles/A1052.dir/A1052.cpp.i
+.PHONY : A1052.cpp.i
+
+A1052.s: A1052.cpp.s
+
+.PHONY : A1052.s
+
+# target to generate assembly for a file
+A1052.cpp.s:
+	$(MAKE) -f CMakeFiles\A1052.dir\build.make CMakeFiles/A1052.dir/A1052.cpp.s
+.PHONY : A1052.cpp.s
+
 A1060.obj: A1060.cpp.obj
 
 .PHONY : A1060.obj
@@ -389,20 +522,51 @@ A1060.cpp.s:
 	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/A1060.cpp.s
 .PHONY : A1060.cpp.s
 
+test.obj: test.cpp.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... test
+	@echo ... A1008
 	@echo ... A1001
 	@echo ... A1002
-	@echo ... A1060
+	@echo ... A1004
 	@echo ... A1006
-	@echo ... edit_cache
 	@echo ... A1025
 	@echo ... A1007
-	@echo ... A1008
+	@echo ... A1032
+	@echo ... A1052
+	@echo ... A1060
+	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... A1001.obj
 	@echo ... A1001.i
@@ -410,6 +574,9 @@ help:
 	@echo ... A1002.obj
 	@echo ... A1002.i
 	@echo ... A1002.s
+	@echo ... A1004.obj
+	@echo ... A1004.i
+	@echo ... A1004.s
 	@echo ... A1006.obj
 	@echo ... A1006.i
 	@echo ... A1006.s
@@ -422,9 +589,18 @@ help:
 	@echo ... A1025.obj
 	@echo ... A1025.i
 	@echo ... A1025.s
+	@echo ... A1032.obj
+	@echo ... A1032.i
+	@echo ... A1032.s
+	@echo ... A1052.obj
+	@echo ... A1052.i
+	@echo ... A1052.s
 	@echo ... A1060.obj
 	@echo ... A1060.i
 	@echo ... A1060.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 
