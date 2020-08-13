@@ -149,6 +149,19 @@ A1001/fast:
 .PHONY : A1001/fast
 
 #=============================================================================
+# Target rules for targets named A1020
+
+# Build rule for target.
+A1020: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1020
+.PHONY : A1020
+
+# fast build rule for target.
+A1020/fast:
+	$(MAKE) -f CMakeFiles\A1020.dir\build.make CMakeFiles/A1020.dir/build
+.PHONY : A1020/fast
+
+#=============================================================================
 # Target rules for targets named A1002
 
 # Build rule for target.
@@ -188,19 +201,6 @@ A1006/fast:
 .PHONY : A1006/fast
 
 #=============================================================================
-# Target rules for targets named A1025
-
-# Build rule for target.
-A1025: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 A1025
-.PHONY : A1025
-
-# fast build rule for target.
-A1025/fast:
-	$(MAKE) -f CMakeFiles\A1025.dir\build.make CMakeFiles/A1025.dir/build
-.PHONY : A1025/fast
-
-#=============================================================================
 # Target rules for targets named A1007
 
 # Build rule for target.
@@ -212,6 +212,19 @@ A1007: cmake_check_build_system
 A1007/fast:
 	$(MAKE) -f CMakeFiles\A1007.dir\build.make CMakeFiles/A1007.dir/build
 .PHONY : A1007/fast
+
+#=============================================================================
+# Target rules for targets named A1025
+
+# Build rule for target.
+A1025: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1025
+.PHONY : A1025
+
+# fast build rule for target.
+A1025/fast:
+	$(MAKE) -f CMakeFiles\A1025.dir\build.make CMakeFiles/A1025.dir/build
+.PHONY : A1025/fast
 
 #=============================================================================
 # Target rules for targets named A1032
@@ -414,6 +427,33 @@ A1008.cpp.s:
 	$(MAKE) -f CMakeFiles\A1008.dir\build.make CMakeFiles/A1008.dir/A1008.cpp.s
 .PHONY : A1008.cpp.s
 
+A1020.obj: A1020.cpp.obj
+
+.PHONY : A1020.obj
+
+# target to build an object file
+A1020.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1020.dir\build.make CMakeFiles/A1020.dir/A1020.cpp.obj
+.PHONY : A1020.cpp.obj
+
+A1020.i: A1020.cpp.i
+
+.PHONY : A1020.i
+
+# target to preprocess a source file
+A1020.cpp.i:
+	$(MAKE) -f CMakeFiles\A1020.dir\build.make CMakeFiles/A1020.dir/A1020.cpp.i
+.PHONY : A1020.cpp.i
+
+A1020.s: A1020.cpp.s
+
+.PHONY : A1020.s
+
+# target to generate assembly for a file
+A1020.cpp.s:
+	$(MAKE) -f CMakeFiles\A1020.dir\build.make CMakeFiles/A1020.dir/A1020.cpp.s
+.PHONY : A1020.cpp.s
+
 A1025.obj: A1025.cpp.obj
 
 .PHONY : A1025.obj
@@ -558,11 +598,12 @@ help:
 	@echo ... test
 	@echo ... A1008
 	@echo ... A1001
+	@echo ... A1020
 	@echo ... A1002
 	@echo ... A1004
 	@echo ... A1006
-	@echo ... A1025
 	@echo ... A1007
+	@echo ... A1025
 	@echo ... A1032
 	@echo ... A1052
 	@echo ... A1060
@@ -586,6 +627,9 @@ help:
 	@echo ... A1008.obj
 	@echo ... A1008.i
 	@echo ... A1008.s
+	@echo ... A1020.obj
+	@echo ... A1020.i
+	@echo ... A1020.s
 	@echo ... A1025.obj
 	@echo ... A1025.i
 	@echo ... A1025.s

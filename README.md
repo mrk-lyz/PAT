@@ -9,6 +9,7 @@
 - A1006 Sign In and Sign Out
 - A1007 Maximum Subsequence Sum
 - A1008 Elevator
+- A1020 Tree Traversals
 - A1025 PAT Ranking
 - A1032 Sharing
 - A1052 Linked List Sorting
