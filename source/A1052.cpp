@@ -61,7 +61,6 @@ int main() {
     sort(v.begin(), v.end(), cmp);
     cout << count << " " << setfill('0') << setw(5) << v[0].addr << endl;
     for (int i = 0; i < v.size(); ++i) {
-
         cout << setfill('0') << setw(5) << v[i].addr << " " << v[i].data << " ";
         if (i<v.size()-1) {
             cout << setfill('0') << setw(5) << v[i+1].addr << endl;

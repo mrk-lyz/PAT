@@ -64,5 +64,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/A1025.dir/DependInfo.cmake"
   "CMakeFiles/A1032.dir/DependInfo.cmake"
   "CMakeFiles/A1052.dir/DependInfo.cmake"
+  "CMakeFiles/A1053.dir/DependInfo.cmake"
   "CMakeFiles/A1060.dir/DependInfo.cmake"
   )
