@@ -15,4 +15,5 @@
 - A1032 Sharing：链表公共后缀
 - A1052 Linked List Sorting：链表排序
 - A1053 Path of Equal Weight：树的深搜
+- 1155 Heap Paths：最大最小堆的判断
 - A1060 Are They Equal：字符串处理

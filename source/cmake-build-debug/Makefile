@@ -149,6 +149,19 @@ A1001/fast:
 .PHONY : A1001/fast
 
 #=============================================================================
+# Target rules for targets named KMP
+
+# Build rule for target.
+KMP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 KMP
+.PHONY : KMP
+
+# fast build rule for target.
+KMP/fast:
+	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/build
+.PHONY : KMP/fast
+
+#=============================================================================
 # Target rules for targets named A1020
 
 # Build rule for target.
@@ -264,6 +277,19 @@ A1053: cmake_check_build_system
 A1053/fast:
 	$(MAKE) -f CMakeFiles\A1053.dir\build.make CMakeFiles/A1053.dir/build
 .PHONY : A1053/fast
+
+#=============================================================================
+# Target rules for targets named A1055
+
+# Build rule for target.
+A1055: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1055
+.PHONY : A1055
+
+# fast build rule for target.
+A1055/fast:
+	$(MAKE) -f CMakeFiles\A1055.dir\build.make CMakeFiles/A1055.dir/build
+.PHONY : A1055/fast
 
 #=============================================================================
 # Target rules for targets named A1060
@@ -575,6 +601,33 @@ A1053.cpp.s:
 	$(MAKE) -f CMakeFiles\A1053.dir\build.make CMakeFiles/A1053.dir/A1053.cpp.s
 .PHONY : A1053.cpp.s
 
+A1055.obj: A1055.cpp.obj
+
+.PHONY : A1055.obj
+
+# target to build an object file
+A1055.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1055.dir\build.make CMakeFiles/A1055.dir/A1055.cpp.obj
+.PHONY : A1055.cpp.obj
+
+A1055.i: A1055.cpp.i
+
+.PHONY : A1055.i
+
+# target to preprocess a source file
+A1055.cpp.i:
+	$(MAKE) -f CMakeFiles\A1055.dir\build.make CMakeFiles/A1055.dir/A1055.cpp.i
+.PHONY : A1055.cpp.i
+
+A1055.s: A1055.cpp.s
+
+.PHONY : A1055.s
+
+# target to generate assembly for a file
+A1055.cpp.s:
+	$(MAKE) -f CMakeFiles\A1055.dir\build.make CMakeFiles/A1055.dir/A1055.cpp.s
+.PHONY : A1055.cpp.s
+
 A1060.obj: A1060.cpp.obj
 
 .PHONY : A1060.obj
@@ -601,6 +654,33 @@ A1060.s: A1060.cpp.s
 A1060.cpp.s:
 	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/A1060.cpp.s
 .PHONY : A1060.cpp.s
+
+template/KMP.obj: template/KMP.cpp.obj
+
+.PHONY : template/KMP.obj
+
+# target to build an object file
+template/KMP.cpp.obj:
+	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/template/KMP.cpp.obj
+.PHONY : template/KMP.cpp.obj
+
+template/KMP.i: template/KMP.cpp.i
+
+.PHONY : template/KMP.i
+
+# target to preprocess a source file
+template/KMP.cpp.i:
+	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/template/KMP.cpp.i
+.PHONY : template/KMP.cpp.i
+
+template/KMP.s: template/KMP.cpp.s
+
+.PHONY : template/KMP.s
+
+# target to generate assembly for a file
+template/KMP.cpp.s:
+	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/template/KMP.cpp.s
+.PHONY : template/KMP.cpp.s
 
 test.obj: test.cpp.obj
 
@@ -638,6 +718,7 @@ help:
 	@echo ... test
 	@echo ... A1008
 	@echo ... A1001
+	@echo ... KMP
 	@echo ... A1020
 	@echo ... A1002
 	@echo ... A1004
@@ -647,6 +728,7 @@ help:
 	@echo ... A1032
 	@echo ... A1052
 	@echo ... A1053
+	@echo ... A1055
 	@echo ... A1060
 	@echo ... edit_cache
 	@echo ... rebuild_cache
@@ -683,9 +765,15 @@ help:
 	@echo ... A1053.obj
 	@echo ... A1053.i
 	@echo ... A1053.s
+	@echo ... A1055.obj
+	@echo ... A1055.i
+	@echo ... A1055.s
 	@echo ... A1060.obj
 	@echo ... A1060.i
 	@echo ... A1060.s
+	@echo ... template/KMP.obj
+	@echo ... template/KMP.i
+	@echo ... template/KMP.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
