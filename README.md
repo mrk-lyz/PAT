@@ -5,10 +5,11 @@
 
 现有解集：
 
-- 字符串处理
+- 字符串
     - A1001 A+B Format
     - A1002 A+B for Polynomials：多项式生成
-    - A1060 Are They Equal：科学计数法
+    - A1050 String Subtraction：删去给定字符（散列）
+    - A1060 Are They Equal：科学计数法的比较
 
 - 结构体排序
     - A1006 Sign In and Sign Out：结构体排序
@@ -28,5 +29,5 @@
     - A1007 Maximum Subsequence Sum：最大子段和
 
 - 其它
-    - A1008 Elevator
+    - A1008 Elevator：普通计算
 

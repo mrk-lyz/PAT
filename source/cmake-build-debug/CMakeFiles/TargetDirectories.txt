@@ -10,9 +10,13 @@ D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1007.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1025.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1043.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1032.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1050.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1052.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1053.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1055.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/A1060.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/Heap.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/AVL.dir
+D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/BinaryTree.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Program/C++/PAT/source/cmake-build-debug/CMakeFiles/rebuild_cache.dir

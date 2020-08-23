@@ -266,6 +266,19 @@ A1032/fast:
 .PHONY : A1032/fast
 
 #=============================================================================
+# Target rules for targets named A1050
+
+# Build rule for target.
+A1050: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 A1050
+.PHONY : A1050
+
+# fast build rule for target.
+A1050/fast:
+	$(MAKE) -f CMakeFiles\A1050.dir\build.make CMakeFiles/A1050.dir/build
+.PHONY : A1050/fast
+
+#=============================================================================
 # Target rules for targets named A1052
 
 # Build rule for target.
@@ -316,6 +329,45 @@ A1060: cmake_check_build_system
 A1060/fast:
 	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/build
 .PHONY : A1060/fast
+
+#=============================================================================
+# Target rules for targets named Heap
+
+# Build rule for target.
+Heap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Heap
+.PHONY : Heap
+
+# fast build rule for target.
+Heap/fast:
+	$(MAKE) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/build
+.PHONY : Heap/fast
+
+#=============================================================================
+# Target rules for targets named AVL
+
+# Build rule for target.
+AVL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 AVL
+.PHONY : AVL
+
+# fast build rule for target.
+AVL/fast:
+	$(MAKE) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/build
+.PHONY : AVL/fast
+
+#=============================================================================
+# Target rules for targets named BinaryTree
+
+# Build rule for target.
+BinaryTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 BinaryTree
+.PHONY : BinaryTree
+
+# fast build rule for target.
+BinaryTree/fast:
+	$(MAKE) -f CMakeFiles\BinaryTree.dir\build.make CMakeFiles/BinaryTree.dir/build
+.PHONY : BinaryTree/fast
 
 A1001.obj: A1001.cpp.obj
 
@@ -587,6 +639,33 @@ A1043.cpp.s:
 	$(MAKE) -f CMakeFiles\A1043.dir\build.make CMakeFiles/A1043.dir/A1043.cpp.s
 .PHONY : A1043.cpp.s
 
+A1050.obj: A1050.cpp.obj
+
+.PHONY : A1050.obj
+
+# target to build an object file
+A1050.cpp.obj:
+	$(MAKE) -f CMakeFiles\A1050.dir\build.make CMakeFiles/A1050.dir/A1050.cpp.obj
+.PHONY : A1050.cpp.obj
+
+A1050.i: A1050.cpp.i
+
+.PHONY : A1050.i
+
+# target to preprocess a source file
+A1050.cpp.i:
+	$(MAKE) -f CMakeFiles\A1050.dir\build.make CMakeFiles/A1050.dir/A1050.cpp.i
+.PHONY : A1050.cpp.i
+
+A1050.s: A1050.cpp.s
+
+.PHONY : A1050.s
+
+# target to generate assembly for a file
+A1050.cpp.s:
+	$(MAKE) -f CMakeFiles\A1050.dir\build.make CMakeFiles/A1050.dir/A1050.cpp.s
+.PHONY : A1050.cpp.s
+
 A1052.obj: A1052.cpp.obj
 
 .PHONY : A1052.obj
@@ -695,32 +774,113 @@ A1060.cpp.s:
 	$(MAKE) -f CMakeFiles\A1060.dir\build.make CMakeFiles/A1060.dir/A1060.cpp.s
 .PHONY : A1060.cpp.s
 
-template/KMP.obj: template/KMP.cpp.obj
+templates/AVL.obj: templates/AVL.cpp.obj
 
-.PHONY : template/KMP.obj
+.PHONY : templates/AVL.obj
 
 # target to build an object file
-template/KMP.cpp.obj:
-	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/template/KMP.cpp.obj
-.PHONY : template/KMP.cpp.obj
+templates/AVL.cpp.obj:
+	$(MAKE) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/templates/AVL.cpp.obj
+.PHONY : templates/AVL.cpp.obj
 
-template/KMP.i: template/KMP.cpp.i
+templates/AVL.i: templates/AVL.cpp.i
 
-.PHONY : template/KMP.i
+.PHONY : templates/AVL.i
 
 # target to preprocess a source file
-template/KMP.cpp.i:
-	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/template/KMP.cpp.i
-.PHONY : template/KMP.cpp.i
+templates/AVL.cpp.i:
+	$(MAKE) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/templates/AVL.cpp.i
+.PHONY : templates/AVL.cpp.i
 
-template/KMP.s: template/KMP.cpp.s
+templates/AVL.s: templates/AVL.cpp.s
 
-.PHONY : template/KMP.s
+.PHONY : templates/AVL.s
 
 # target to generate assembly for a file
-template/KMP.cpp.s:
-	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/template/KMP.cpp.s
-.PHONY : template/KMP.cpp.s
+templates/AVL.cpp.s:
+	$(MAKE) -f CMakeFiles\AVL.dir\build.make CMakeFiles/AVL.dir/templates/AVL.cpp.s
+.PHONY : templates/AVL.cpp.s
+
+templates/BinaryTree.obj: templates/BinaryTree.cpp.obj
+
+.PHONY : templates/BinaryTree.obj
+
+# target to build an object file
+templates/BinaryTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\BinaryTree.dir\build.make CMakeFiles/BinaryTree.dir/templates/BinaryTree.cpp.obj
+.PHONY : templates/BinaryTree.cpp.obj
+
+templates/BinaryTree.i: templates/BinaryTree.cpp.i
+
+.PHONY : templates/BinaryTree.i
+
+# target to preprocess a source file
+templates/BinaryTree.cpp.i:
+	$(MAKE) -f CMakeFiles\BinaryTree.dir\build.make CMakeFiles/BinaryTree.dir/templates/BinaryTree.cpp.i
+.PHONY : templates/BinaryTree.cpp.i
+
+templates/BinaryTree.s: templates/BinaryTree.cpp.s
+
+.PHONY : templates/BinaryTree.s
+
+# target to generate assembly for a file
+templates/BinaryTree.cpp.s:
+	$(MAKE) -f CMakeFiles\BinaryTree.dir\build.make CMakeFiles/BinaryTree.dir/templates/BinaryTree.cpp.s
+.PHONY : templates/BinaryTree.cpp.s
+
+templates/Heap.obj: templates/Heap.cpp.obj
+
+.PHONY : templates/Heap.obj
+
+# target to build an object file
+templates/Heap.cpp.obj:
+	$(MAKE) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/templates/Heap.cpp.obj
+.PHONY : templates/Heap.cpp.obj
+
+templates/Heap.i: templates/Heap.cpp.i
+
+.PHONY : templates/Heap.i
+
+# target to preprocess a source file
+templates/Heap.cpp.i:
+	$(MAKE) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/templates/Heap.cpp.i
+.PHONY : templates/Heap.cpp.i
+
+templates/Heap.s: templates/Heap.cpp.s
+
+.PHONY : templates/Heap.s
+
+# target to generate assembly for a file
+templates/Heap.cpp.s:
+	$(MAKE) -f CMakeFiles\Heap.dir\build.make CMakeFiles/Heap.dir/templates/Heap.cpp.s
+.PHONY : templates/Heap.cpp.s
+
+templates/KMP.obj: templates/KMP.cpp.obj
+
+.PHONY : templates/KMP.obj
+
+# target to build an object file
+templates/KMP.cpp.obj:
+	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/templates/KMP.cpp.obj
+.PHONY : templates/KMP.cpp.obj
+
+templates/KMP.i: templates/KMP.cpp.i
+
+.PHONY : templates/KMP.i
+
+# target to preprocess a source file
+templates/KMP.cpp.i:
+	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/templates/KMP.cpp.i
+.PHONY : templates/KMP.cpp.i
+
+templates/KMP.s: templates/KMP.cpp.s
+
+.PHONY : templates/KMP.s
+
+# target to generate assembly for a file
+templates/KMP.cpp.s:
+	$(MAKE) -f CMakeFiles\KMP.dir\build.make CMakeFiles/KMP.dir/templates/KMP.cpp.s
+.PHONY : templates/KMP.cpp.s
 
 test.obj: test.cpp.obj
 
@@ -767,10 +927,14 @@ help:
 	@echo ... A1025
 	@echo ... A1043
 	@echo ... A1032
+	@echo ... A1050
 	@echo ... A1052
 	@echo ... A1053
 	@echo ... A1055
 	@echo ... A1060
+	@echo ... Heap
+	@echo ... AVL
+	@echo ... BinaryTree
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... A1001.obj
@@ -803,6 +967,9 @@ help:
 	@echo ... A1043.obj
 	@echo ... A1043.i
 	@echo ... A1043.s
+	@echo ... A1050.obj
+	@echo ... A1050.i
+	@echo ... A1050.s
 	@echo ... A1052.obj
 	@echo ... A1052.i
 	@echo ... A1052.s
@@ -815,9 +982,18 @@ help:
 	@echo ... A1060.obj
 	@echo ... A1060.i
 	@echo ... A1060.s
-	@echo ... template/KMP.obj
-	@echo ... template/KMP.i
-	@echo ... template/KMP.s
+	@echo ... templates/AVL.obj
+	@echo ... templates/AVL.i
+	@echo ... templates/AVL.s
+	@echo ... templates/BinaryTree.obj
+	@echo ... templates/BinaryTree.i
+	@echo ... templates/BinaryTree.s
+	@echo ... templates/Heap.obj
+	@echo ... templates/Heap.i
+	@echo ... templates/Heap.s
+	@echo ... templates/KMP.obj
+	@echo ... templates/KMP.i
+	@echo ... templates/KMP.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
