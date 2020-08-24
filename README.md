@@ -22,9 +22,11 @@
 - 树
     - A1020 Tree Traversals：二叉树层序遍历
     - A1053 Path of Equal Weight：特定权值路径（深搜）
-    - A1155 Heap Paths：输出树的所有路径、判断是否为堆
+    - A1055 Heap Paths：输出树的所有路径、判断是否为堆
     - A1043 Is It a Binary Search Tree：二叉排序树的生成与遍历
 
+- 图
+    -A1034 Head of a Gang：深搜路径
 - 动态规划
     - A1007 Maximum Subsequence Sum：最大子段和
 
