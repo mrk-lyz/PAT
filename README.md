@@ -12,8 +12,9 @@
     - A1060 Are They Equal：科学计数法的比较
 
 - 结构体排序
-    - A1006 Sign In and Sign Out：结构体排序
-    - A1025 PAT Ranking：结构体排序
+    - A1006 Sign In and Sign Out：谁锁（开）的门？
+    - A1016 Phone Bills：计算账单（稍麻烦）
+    - A1025 PAT Ranking：PAT排名
 
 - 链表
     - A1032 Sharing：链表公共后缀
@@ -26,7 +27,9 @@
     - A1043 Is It a Binary Search Tree：二叉排序树的生成与遍历
 
 - 图
-    -A1034 Head of a Gang：深搜路径
+    - A1003 Emergency：求点权之和最大的最短路径
+    - A1034 Head of a Gang：深搜路径
+
 - 动态规划
     - A1007 Maximum Subsequence Sum：最大子段和
 
