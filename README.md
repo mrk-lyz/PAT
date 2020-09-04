@@ -34,5 +34,6 @@
     - A1007 Maximum Subsequence Sum：最大子段和
 
 - 其它
-    - A1008 Elevator：普通计算
+    - A1008 Elevator
+    - A1011 World Cup Betting
 
