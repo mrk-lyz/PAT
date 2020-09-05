@@ -21,6 +21,9 @@ Sample Output:
 10 3 3 6 2
 */
 
+/*
+ * 找出根节点到叶子节点的给定权值和的路径
+ * */
 #include <bits/stdc++.h>
 
 using namespace std;

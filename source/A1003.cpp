@@ -34,31 +34,32 @@ int g[maxn][maxn];  // 邻接矩阵
 int path = 0;       // 最短路径数
 int maxWeight = 0;  // 最大救援队数量
 int minLength = INF;// 最短路径长度
-
-void DFS(int u, vector<int> v, int length, int weight) {
-//    cout << u << " " << v.size() << " " << length << " " << weight << endl;
-    if (u == c2) {
-        if(length<minLength) {          // 找到一条更短路径
+vector<int> p;      // 记录路径
+void DFS(int u, int length, int weight) {
+    if (u == c2) {                          // 如果途径目标节点
+        p.push_back(u);
+        if (length < minLength) {           // 找到一条更短路径
             minLength = length;
             path = 1;
             maxWeight = weight;
-        } else {                        // 找到一条相同长度的路径
-            path++;
-            if(weight > maxWeight) {
+        } else {                            // 找到一条相同长度的路径
+            path++;                         // 最短路径数+1
+            if (weight > maxWeight) {
                 maxWeight = weight;
             }
         }
+        p.pop_back();
         return;
     }
+    p.push_back(u);
     for (int i = 0; i < n; i++) {
         if (g[u][i] > 0) {
-            if (length + g[u][i] <= minLength && find(v.begin(), v.end(), i) == v.end()) {
-                v.push_back(i);
-                DFS(i, v, length + g[u][i], weight+teams[i]);
-                v.pop_back();
+            if (length + g[u][i] <= minLength && find(p.begin(), p.end(), i) == p.end()) {
+                DFS(i, length + g[u][i], weight + teams[i]);
             }
         }
     }
+    p.pop_back();
 }
 
 int main() {
@@ -71,9 +72,7 @@ int main() {
         cin >> u >> v >> w;
         g[u][v] = g[v][u] = w;
     }
-    vector<int> p;
-    p.push_back(c1);
-    DFS(c1, p, 0, teams[c1]);
+    DFS(c1, 0, teams[c1]);
     cout << path << " " << maxWeight << endl;
     return 0;
 }

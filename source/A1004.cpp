@@ -9,6 +9,11 @@ Sample Output:
 0 1
 */
 
+/*
+ * 给定一棵二叉树，从中2找出每一层次中的叶子节点数量
+ * 核心：分层
+ * */
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -40,16 +45,16 @@ void levelOrder() {
         q.pop();
         for (int i : t.children) {
             q.push(p[i]);
-            numNextNode++;
+            numNextNode++;      // 下一层次的叶子节点数量加一
         }
-//        cout << t.children.size() << " " << numLeaf << endl;
-        if (t.children.empty()) {
+        if (t.children.empty()) {   // 如果取出的是叶子节点
             numLeaf++;
         }
         numNode--;                  // 当前层级节点数减一
         if (numNode == 0) {         // 当前层已遍历完成，下一层的总节点数也已经确定
             res[level] = numLeaf;   // 保存结果
             level++;                // 总层数加1
+            // 进入下一层次
             numNode = numNextNode;
             numNextNode = 0;
             numLeaf = 0;

@@ -57,6 +57,7 @@ int minPath = 0, maxPath = 0;   // 递减路径数，递增路径数
 void DFS(int i, int numNode) {
     if (p[i].lChild == -1 && p[i].rChild == -1) {
         numPath++;
+        // 输出路径
         for (int j = 0; j < numNode; ++j) {
             cout << path[j];
             if (j < numNode - 1) {
@@ -115,9 +116,6 @@ int main() {
             p[i].rChild = -1;   // 无目标字结点则为-1
         }
     }
-//    for (int i = 0; i < n; ++i) {
-//        cout << p[i].lChild << " " << p[i].rChild << endl;
-//    }
     path[0] = p[0].data;
     DFS(0, 1);
     if (minPath == numPath) {

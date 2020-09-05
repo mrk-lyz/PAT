@@ -30,6 +30,7 @@ struct Node {
 int in[maxn], post[maxn];   // 中序遍历与后序遍历序列
 int n;                      // 节点个数
 
+// 后序区间：[postL, postR]，中序区间：[inL, inR]
 Node *create(int postL, int postR, int inL, int inR) {
     if (postL > postR) {
         return nullptr;
