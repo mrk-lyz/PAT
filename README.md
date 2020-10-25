@@ -12,6 +12,7 @@
 
 - 结构体排序
     - A1006 Sign In and Sign Out：谁锁（开）的门？
+    - A1012 The Best Rank 多级排序
     - A1016 Phone Bills：计算账单（****）
     - A1025 PAT Ranking：PAT排名
 
