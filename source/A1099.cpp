@@ -21,7 +21,7 @@ Sample Output:
 
 /*
  * 给定一个BST结构，将一串序列插入至该结构中，输出层序遍历序列。
- * 思路：将给定序列自小到大排序，赋值给先序遍历序列的结点中。
+ * 思路：将给定序列自小到大排序，赋值给中序遍历序列的对应结点中。
  * */
 #include <bits/stdc++.h>
 
@@ -40,14 +40,14 @@ int n;              // 定点数量
 vector<int> data;   // 给定元素数组
 int num = 0;      // 记录排序队列的索引
 
-// 先序遍历，插入结点
-void preOrder(int u) {
+// 中序遍历，插入结点
+void inOrder(int u) {
     if (u == -1) {
         return;
     }
-    preOrder(BST[u].lChild);
+    inOrder(BST[u].lChild);
     BST[u].data = data[num++];
-    preOrder(BST[u].rChild);
+    inOrder(BST[u].rChild);
 }
 
 // 层序遍历
@@ -85,7 +85,7 @@ int main() {
         data.emplace_back(value);
     }
     sort(data.begin(), data.end()); // 将序列自小到大排序
-    preOrder(0);
+    inOrder(0);
     levelOrder();
     return 0;
 }
