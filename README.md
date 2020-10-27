@@ -26,7 +26,8 @@
     - A1043 Is It a Binary Search Tree：二叉排序树的生成与遍历（***）
     - A1053 Path of Equal Weight：深搜，求特定权值根-叶路径（***）
     - A1055 Heap Paths：输出树的所有路径、判断是否为堆（***）
-    - A1064 Complete Binary Search Tree：用给定序列构造给定完全BST，并层序遍历（***）
+    - A1064 Complete Binary Search Tree：用给定序列构造完全BST，并层序遍历（***）
+    - A1066 Root of AVL Tree：用给定序列构造AVLTree，并输出根节点权值（*****）
     - A1099 Build A Binary Search Tree：用给定序列构造给定结构BST，并层序遍历（***）
 
 - 图

@@ -1,10 +1,30 @@
 /*
- * AVL树是一棵二叉平衡排序树
- * */
+1066 Root of AVL Tree (25分)
 
+Sample Input 1:
+5
+88 70 61 96 120
+
+Sample Output 1:
+70
+
+Sample Input 2:
+7
+88 70 61 96 120 90 65
+
+Sample Output 2:
+88
+*/
+
+/*
+ * 给定一个序列，构造平衡二叉树，输出该树的根节点元素
+ * */
 #include <bits/stdc++.h>
 
 using namespace std;
+
+const int maxn = 25;
+const int INF = 100000000;
 
 struct Node {
     int data;               // 数据域
@@ -12,7 +32,10 @@ struct Node {
     Node *lChild, *rChild;  // 左右孩子
 };
 
-// 新建AVL树，data为根结点权值
+int n;  // 结点数
+vector<int> v;
+
+// 新建以data为权值的AVL结点
 Node *newNode(int data) {
     Node *p = new Node;
     p->data = data;
@@ -112,20 +135,14 @@ void insert(Node *&r, int data) {
     }
 }
 
-// AVL树建立
-Node *create(vector<int> &v) {
-    Node *r = nullptr;
-    for (int i : v) {
-        insert(r, i);
-    }
-    return r;
-}
-
 int main() {
-
-    Node *p = newNode(3);
-    cout << p << endl;
-
-
+    int value;
+    Node *r = nullptr;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        cin >> value;
+        insert(r, value);
+    }
+    cout << r->data << endl;
     return 0;
 }

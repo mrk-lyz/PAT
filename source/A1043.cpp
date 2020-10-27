@@ -101,23 +101,23 @@ int main() {
     }
     preOrder(root);             // 先序遍历原树
     preOrderMirror(root);       // 先序遍历镜像树
-    if (p==pre) {
+    if (p == pre) {
         cout << "YES" << endl;
         postOrder(root);       // 后序遍历原树
         for (int i = 0; i < post.size(); ++i) {
             cout << post[i];
-            if (i<post.size()-1) {
+            if (i < post.size() - 1) {
                 cout << " ";
             } else {
                 cout << endl;
             }
         }
-    } else if (p==preMirror){
+    } else if (p == preMirror) {
         cout << "YES" << endl;
         postOrderMirror(root);  // 后序遍历镜像树
         for (int i = 0; i < postMirror.size(); ++i) {
             cout << postMirror[i];
-            if (i<postMirror.size()-1) {
+            if (i < postMirror.size() - 1) {
                 cout << " ";
             } else {
                 cout << endl;
