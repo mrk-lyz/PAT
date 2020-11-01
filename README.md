@@ -43,6 +43,7 @@
     - A1007 Maximum Subsequence Sum：最大子段和
 
 - 其它
+    - A1005 Spell It Right
     - A1008 Elevator（*）
     - A1011 World Cup Betting（*）
 
