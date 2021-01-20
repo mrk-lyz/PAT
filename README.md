@@ -8,6 +8,7 @@
     - A1001 A+B Format
     - A1002 A+B for Polynomials：多项式生成
     - A1009 Product of Polynomials：多项式乘积
+    - A1015 Reversible Primes：判断逆置素数
     - A1050 String Subtraction：删去串中给定字符（散列）
     - A1060 Are They Equal：科学计数法的比较
     - A1005 Spell It Right：字符串各位和
