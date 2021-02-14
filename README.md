@@ -47,4 +47,5 @@
     - A1005 Spell It Right
     - A1008 Elevator（*）
     - A1011 World Cup Betting（*）
+    - A1041 Be Unique：散列表（*）
 

@@ -71,6 +71,7 @@ void DFS(int u) {
     tempPath.pop_back();
 }
 
+// 模板：PAT A1030
 int main() {
     cin >> n >> m >> s >> d;
     fill(g[0], g[0] + maxn * maxn, INF);
@@ -83,8 +84,8 @@ int main() {
         g[to][from] = a;
         c[to][from] = b;
     }
-    Dijkstra(s);
-    DFS(d);
+    Dijkstra(s);        // 依据第一标尺（距离），求出所有最短路径
+    DFS(d);             // 依据第二标尺（费用），求出最优路径
     for (int i = path.size() - 1; i >= 0; i--) {
         cout << path[i] << " ";
     }
