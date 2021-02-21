@@ -21,6 +21,7 @@
     - A1012 The Best Rank 多级排序
     - A1016 Phone Bills：计算账单（****）
     - A1025 PAT Ranking：PAT排名
+    - A1062 Talent and Virtue：分级排序
 
 - 链表
     - A1032 Sharing：链表公共后缀
