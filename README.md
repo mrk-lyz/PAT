@@ -14,6 +14,7 @@
     - A1050 String Subtraction：删去串中给定字符（散列） 
     - A1058 A+B in Hogwarts
     - A1060 Are They Equal：科学计数法的比较
+    - A1061 Dating
   
 - 结构体
     - A1006 Sign In and Sign Out：谁锁（开）的门？
