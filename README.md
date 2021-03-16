@@ -45,7 +45,8 @@
     - A1076 Forwards on Weibo：广搜，找出与目标节点一定距离内的所有节点数（***）
 
 - 动态规划
-    - A1007 Maximum Subsequence Sum：最大子段和
+    - A1007 Maximum Subsequence Sum：最大子段和 
+    - A1068 Find More Coins：0-1背包问题
 
 - 其它
     - A1005 Spell It Right
