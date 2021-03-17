@@ -15,13 +15,15 @@
     - A1058 A+B in Hogwarts
     - A1060 Are They Equal：科学计数法的比较
     - A1061 Dating
-  
+    - A1069 The Black Hole of Numbers
+
 - 结构体
     - A1006 Sign In and Sign Out：谁锁（开）的门？
     - A1012 The Best Rank 多级排序
     - A1016 Phone Bills：计算账单（****）
     - A1025 PAT Ranking：PAT排名
     - A1062 Talent and Virtue：分级排序
+    - 1070 Mooncake：类贪心算法
 
 - 链表
     - A1032 Sharing：链表公共后缀
