@@ -56,5 +56,6 @@
     - A1011 World Cup Betting（*）
     - A1041 Be Unique：散列表（*）
     - A1059 Prime Factors：分解质因数
+    - A1063 Set Similarity：计算set相似度
     - A1067 Sort with Swap(0, i)
 
